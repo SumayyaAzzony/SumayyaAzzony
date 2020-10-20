@@ -1,0 +1,30 @@
+h1 {
+  background-color: pink;
+  color: darkblue;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  color: darkgreen;
+  text-align: center;
+  padding: 10px;
+}
+
+body {
+  background-color: lightyellow;
+}
+
+button {
+  background-color: #008CBA;
+  margin: 4px 2px;
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  cursor: pointer;
+  position: center;
+}
+
+div {
+  text-align: center;
+}

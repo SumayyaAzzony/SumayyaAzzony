@@ -1,124 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-<table cellspacing="20">
-  <tr>
-    <td>
-      <img src="code.jpg" alt="profile image" width=100 />
-    </td>
-    <td>
-        <h1>Sumayya Azzony</h1>
-        <em>Teaching Assistant at <a href="https://www.kku.edu.sa/"><strong>King Khalid University</strong></a></em>
-        <br />
-        <em>Computer Science master student at <a href="https://www.kau.edu.sa/Home.aspx"><strong>King Abdulaziz University</strong></a></em>
-    </td>
-  </tr>
-</table>
-
+<html lang=en dir="ltr">
 
 <head>
-    <meta charset=utf-8">
-  <title>Sumayya Azzony's Homepage🌸</title>
-  <em> <a href="https://computing.kau.edu.sa/pages-depcs-ar.aspx"> Department of Computer Science</a></em>
-  <br />
-    <meta name="description" content="Personal Website">
-  <meta name="keywords" content="Sumayya, Azzony">
-  <meta name="author" content="Sumayya Azzony">
-  <br />
-
-
+  <meta charset="utf-8">
+  <title>Random dice game</title>
+  <meta name="author" content="Sumayya Azzony" />
+  <link rel="stylesheet" href="styles.css">
+  <h1><em>Random dice game with two players</em></h1>
 </head>
 
 <body>
-
-  <p>
-    My favourite subjects are Machine Learning, Web Development and Software Engineering.
-    <br />
-    My interested research area is Machine Learning.
-  </p>
-  <hr />
-  <h3>Education</h3>
-  <ol type='I'>
-    <li>
-      BS in Computer Science
-      <ul type='disc'>
-        <li><a href="https://www.kau.edu.sa/Home.aspx">King Abdul aziz University</a></li>
-      </ul>
-    </li>
-    <li>
-      Currently master student in Computer Science
-      <ul type='square'>
-        <li>
-          <a href="https://www.kau.edu.sa/Home.aspx"> King Abdulaziz University</a>
-        </li>
-      </ul>
-    </li>
-  </ol>
+  <script src="index.js"></script>
+  <div>
+    <h2>Challenge your partner randomly on dice.. Click start!</h2>
+  </div>
+  <div>
+    <img id="dice1" src="dice 1.png" />
+    <img id="dice2" src="dice 2.png" />
+  </div>
   <br />
-  <table>
-    <theader><Strong>IT Skills</Strong></theader>
-    <br />
-    <br />
-    <thead>
-      <th width="100" align="left">skill </th>
-      <th>Level of Experience</th>
-      <th >Stars </th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          HTML
-        </td>
-        <td>
-          Expert
-        </td>
-        <td>
-          ✪✪✪✪✪
-        </td>
-      </tr>
-      <tr>
-        <td>
-          CSS
-        </td>
-        <td>
-          Intermediate
-        </td>
-        <td>
-          ✪✪✪
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Java
-        </td>
-        <td>
-          Expert
-        </td>
-        <td>
-          ✪✪✪✪✪
-        </td>
-      </tr>
-      <tr>
-        <td>
-          PYTHON
-        </td>
-        <td>
-          Expert
-        </td>
-        <td>
-          ✪✪✪✪✪
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-<br />
-<em><strong>to</strong> </em>
-<a download href="Sumayya's CV.pdf">get my CV</a>
-<br />
-<br />
-
-<em>For farther information</em>
-  <a href="contact me.html"> you can contact me directly</a>
-
+  <div>
+    <button id="myButton" onclick="diceFunction()"> start!</button>
+    <audio id="audio" src="claps.wav"></audio>
+  </div>
 </body>
+
 </html>
